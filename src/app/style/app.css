@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+
+.siteLogo{
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.primary-btn{
+    background: #3d6ce7;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    
+}
+.primary-btn:hover{
+    background:#355dc4 ;
+   
+}
+.primary-bg{
+    background: #3d6ce7;
+    color: white;
+}
+.primary-text{
+    color: #3d6ce7;
+}
+
+.sortDesc{
+    color: #6b7280;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.titleText{
+    color: black;
+    font-size: 28px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.container{
+    text-align: center;
+    padding: 12px 0px;
+}
+.main{
+    margin: 50px 0px;
+}
+
+.heroimg{
+    background:url("/pexels-pixabay-159711.jpg");
+    background-repeat: no-repeat;
+ 
+    background-size:cover;
+   
+}
+
+.bgreduce{
+    background: #04050cd5;
+}
+
+.imageresize{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
