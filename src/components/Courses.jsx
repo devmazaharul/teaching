@@ -8,16 +8,16 @@ import { FiUser } from "react-icons/fi";
 export default function Courses() {
   const {courses:{title,sortDesc,course_list}}=Site_data
   return (
-    <div className='main '>
+    <div className='main capitalize'>
       <div className='container'>
     <h1 className='titleText'>{title}</h1>
     <p className='sortDesc'>{sortDesc}</p>
       </div>
 
-      <div className='grid grid-cols-3 gap-3 py-4'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-3 py-4'>
         {course_list.map((list,i)=>(
           <div key={i} className='p-8 rounded-md  border border-gray-100 bg-white shadow-md'>
-            <Image src={list.c_image} height={100} width={150} className='object-cover h-[300px] w-full'/>
+            <Image alt='courses' src={list.c_image} height={100} width={150} className='object-cover h-[300px] w-full'/>
            <div className='flex items-center justify-between py-2'>
            <h1 className='  rounded-sm primary-bg hover:text-white px-1 capitalize'>{list.name}</h1>
            <p className='p-2 rounded-sm font-semibold '>{list.c_price}</p>

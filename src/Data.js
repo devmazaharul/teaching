@@ -213,7 +213,7 @@ export const Site_data={
                 id:1,
             },
             {
-                name:"Twiter",
+                name:"twitter",
                 path:"#",
                 id:2,
             },
