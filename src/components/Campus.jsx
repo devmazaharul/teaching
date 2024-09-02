@@ -14,7 +14,7 @@ export default function Campus() {
     </div>
     {campous_img.map((list,i)=>(
      <div key={i}>
-       <Image alt='capmus' src={list} width={400} height={200} className='rounded-md shadow-md hover:scale-90 transition-all'/>
+       <Image alt='capmus' src={list} width={400} height={200} className='rounded-md shadow-md hover:scale-90 w-fit transition-all'/>
      </div>
     ))}
       </div>

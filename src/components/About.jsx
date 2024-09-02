@@ -10,7 +10,7 @@ export default function About() {
     <div className='grid md:grid-cols-6 main items-center capitalize gap-6 py-6 '>
         <div className='md:col-span-3'>
           <div className='flex items-center gap-2'>
-          <Image className=' rounded-md h-[200px] md:h-[300px] object-contain   ' width={300} height={400} src={about_image_path[0]} alt="aa"/>
+          <Image className=' rounded-md hidden md:block h-[200px] md:h-[300px] object-contain   ' width={300} height={400} src={about_image_path[0]} alt="aa"/>
           <Image className='rounded-xl h-[300px] md:h-[400px] object-contain   ' width={420} height={500} src={about_image_path[1]} alt="aa"/>
           </div>
         </div>

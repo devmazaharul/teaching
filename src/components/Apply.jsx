@@ -9,7 +9,7 @@ export default function Apply() {
   return (
     <div className='md:flex items-center main capitalize justify-between gap-16'>
        {applySection.map((item,i)=>(
-         <div key={item.id} className='flex  items-center gap-14  p-4  m-2'>
+         <div key={item.id} className='flex  items-center gap-8 md:gap-14  p-4  m-2'>
          <div>
 
       <p className='text-3xl primary-text'> {item.id==1?<BiBookmarkAltPlus/>:<FaUserGraduate/>}</p>

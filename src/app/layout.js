@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Tophead from "@/components/Tophead";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
+import { Toaster } from "react-hot-toast";
 
 const Font = Space_Grotesk({
   subsets: ["vietnamese"],
@@ -28,6 +29,11 @@ export default function RootLayout({ children }) {
         <Hero />
         <div className="w-[85%] mx-auto py-2">{children}</div>
         <Footer />
+
+        <Toaster
+  position="top-center"
+  reverseOrder={false}
+/>
       </body>
     </html>
   );
