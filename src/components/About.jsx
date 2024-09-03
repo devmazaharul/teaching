@@ -20,7 +20,7 @@ export default function About() {
             <ul className='py-4'>
                 {list.map((item)=>(
                     <li key={Math.random()} className='flex gap-2 items-center leading-9'>
-                        <IoCheckmark className='text-green-500  rounded-full border bg-green-200 text-lg'/>
+                        <IoCheckmark className='text-green-500  rounded-full  bg-green-100 text-lg'/>
                         {item}
                     </li>
                 ))}
