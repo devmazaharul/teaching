@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function About() {
-    const {aboutsection:{title,sortDesc,list,actionBtn,about_image_path},site_color}=Site_data
+    const {aboutsection:{title,sortDesc,list,actionBtn,about_image_path},site_color}=Site_data;
   return (
     <div className='grid md:grid-cols-6 main items-center capitalize gap-6 py-6 '>
         <div className='md:col-span-3'>
